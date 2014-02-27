@@ -102,11 +102,10 @@ locator: '//*[@class="btn btn-default" and @href="/pdrzh/j_spring_security_logou
 myMap.addElement('main_page', {
 name: 'username',
 description: 'user name',
-//locator: '//*[@id="log"]'
-locator: '/html/body/div/div/div[2]/div/div'
+locator: '//*[@id="log"]'
 });
 
-//html/body/div/div/div[2]/div/div
+
 
 
 var manager = new RollupManager();
@@ -145,22 +144,18 @@ manager.addRollupRule({
 		{
 			name: 'rlogin' 
 			, description: 'rlogin'
-			//, value: 'abc'
 		}
 		, {
 			name: 'rpass'
 			, description: 'rpassword'
-			//, value: 'abc'
 		}
 		, {
 			name: 'phone'
 			, description: 'phone number'
-			//, value: 'abc'
 		}
 		, {
 			name: 'email'
 			, description: 'email'
-			//, value: 'abc'
 		}
     ] 
 	, pre: 'Podorojniki start page is opened'
