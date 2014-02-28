@@ -103,7 +103,7 @@ locator: '//*[@class="btn btn-default" and @href="/pdrzh/j_spring_security_logou
 myMap.addElement('main_page', {
 name: 'username',
 description: 'user name',
-locator: '//*[@id="log"]'
+locator: /html/body/div/div/div[2]/div/div   //'//*[@id="log"]'
 });
 
 
