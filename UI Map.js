@@ -1,4 +1,3 @@
-//test for lesik666
 var myMap = new UIMap(); 
 
 /* Pages */
