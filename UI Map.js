@@ -116,7 +116,13 @@ name: 'username',
 description: 'user name',
 locator: /html/body/div/div/div[2]/div/div   //'//*[@id="log"]'
 });
+/*Elements for new_car page*/
 
+myMap.addelement('new_car',{
+name:'nc_color_field',
+description:'Car color'
+locator:'//*[@id="color"]'
+});
 
 
 
