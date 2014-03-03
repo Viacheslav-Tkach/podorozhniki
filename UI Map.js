@@ -132,6 +132,24 @@ locator:'//*[@id="color"]'
 
 
 
+myMap.addElement('new_car',{
+name: 'nc_save_btn'
+description:'save new car button'
+locator: '//*[@class="btn btn-default" and @name="idCar"]'
+});
+
+myMap.addElement('new_car',{
+name: 'nc_cancel_btn'
+description:'cancel button on new_car page'
+locator: '/html/body/div/div[2]/div[2]/div/div/div/form/fieldset/div[10]/div/button[2]'
+});
+
+myMap.addElement('new_car',{
+name: 'nc_back_link'
+description: 'back_button link'
+locator: '/html/body/div/div[2]/div[2]/div/div/div[2]/a'
+});
+
 /* Elements for edit_profile page */
 
 myMap.addElement ('edit_profile',{
