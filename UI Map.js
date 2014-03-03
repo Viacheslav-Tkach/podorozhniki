@@ -20,6 +20,18 @@ description: 'registration page',
 pathRegexp: 'some regexp'  
 });
 
+myMap.addPageset({
+name: 'edit_profile'
+description: 'edit_profile page'
+pathRegexp: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/edit_profile'
+});
+
+myMap.addPageset({
+name: 'new_car'
+description: 'page for register new_car'
+pathRegexp: 'some regexp'
+});
+
 /* Elements for registration page */
 myMap.addElement('registration_page', {
 name: 'r_login_field',
