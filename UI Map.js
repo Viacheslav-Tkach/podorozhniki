@@ -117,8 +117,19 @@ description: 'user name',
 locator: /html/body/div/div/div[2]/div/div   //'//*[@id="log"]'
 });
 
+myMap.addElement('main_page'.{
+name: 'edit_btn',
+description: 'edit profile button'
+locator: '//*[@class="btn btn-default" and @href="/pdrzh/client/edit_profile"]'
+});
 
+/* Elements for edit_profile page */
 
+myMap.addElement ('edit_profile',{
+name: 'e_register_nc_link'
+description: 'link to register new car from edit_profile page'
+locator: '/html/body/div/div[2]/div[2]/div/div[2]/div/a'
+});
 
 var manager = new RollupManager();
 
