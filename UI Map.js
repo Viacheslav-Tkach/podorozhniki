@@ -20,14 +20,14 @@ pathRegexp: 'some regexp'
 });
 
 myMap.addPageset({
-name: 'edit_profile'
-description: 'edit_profile page'
+name: 'edit_profile',
+description: 'edit_profile page',
 pathRegexp: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/edit_profile'
 });
 
 myMap.addPageset({
-name: 'new_car'
-description: 'page for register new_car'
+name: 'new_car',
+description: 'page for register new_car',
 pathRegexp: 'some regexp'
 });
 
@@ -114,17 +114,17 @@ locator: '//*[@class="btn btn-default" and @href="/pdrzh/j_spring_security_logou
 myMap.addElement('main_page', {
 name: 'username',
 description: 'user name',
-locator: /html/body/div/div/div[2]/div/div   //'//*[@id="log"]'
+locator: '/html/body/div/div/div[2]/div/div'   //'//*[@id="log"]'
 });
-myMap.addElement('main_page'.{
+myMap.addElement('main_page',{
 name: 'edit_btn',
-description: 'edit profile button'
-locator: '//*[@class="btn btn-default" and @href="/pdrzh/client/edit_profile"]'
+description: 'edit profile button',
+locator: '//*[@class="btn btn-primary" and @href="/pdrzh/client/edit_profile"]'
 
 });
 /*Elements for new_car page*/
 
-myMap.addelement('new_car',{
+myMap.addElement('new_car',{
 name:'nc_color_field',
 description:'Car color',
 locator:'//*[@id="color"]'
@@ -133,28 +133,28 @@ locator:'//*[@id="color"]'
 
 
 myMap.addElement('new_car',{
-name: 'nc_save_btn'
-description:'save new car button'
+name: 'nc_save_btn',
+description:'save new car button',
 locator: '//*[@class="btn btn-default" and @name="idCar"]'
 });
 
 myMap.addElement('new_car',{
-name: 'nc_cancel_btn'
-description:'cancel button on new_car page'
+name: 'nc_cancel_btn',
+description:'cancel button on new_car page',
 locator: '/html/body/div/div[2]/div[2]/div/div/div/form/fieldset/div[10]/div/button[2]'
 });
 
 myMap.addElement('new_car',{
-name: 'nc_back_link'
-description: 'back_button link'
+name: 'nc_back_link',
+description: 'back_button link',
 locator: '/html/body/div/div[2]/div[2]/div/div/div[2]/a'
 });
 
 /* Elements for edit_profile page */
 
 myMap.addElement ('edit_profile',{
-name: 'e_register_nc_link'
-description: 'link to register new car from edit_profile page'
+name: 'e_register_nc_link',
+description: 'link to register new car from edit_profile page',
 locator: '/html/body/div/div[2]/div[2]/div/div[2]/div/a'
 });
 
@@ -467,6 +467,33 @@ manager.addRollupRule({
 			command: 'assertText'
 			, target: 'ui=main_page::username()'
 			, value: args.login
+		});
+		
+		return commands;
+	}
+});
+
+manager.addRollupRule({
+	name: 'open_edit_profile'
+	, description: 'open edit_profile page'
+	, args: []
+	, pre: 'Podorojniki start page is opened'
+	, post: 'User logged to the system'
+    , commandMatchers: []
+	, getExpandedCommands: function(args) {
+		var commands = [];
+		
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=main_page::edit_btn()'
+		});
+		commands.push({
+			command: 'clickAndWait'
+			, target: 'ui=main_page::edit_btn()'
+		});
+		commands.push({
+			command: 'assertLocation'
+			, target: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/edit_profile'
 		});
 		
 		return commands;
