@@ -22,7 +22,7 @@ pathRegexp: 'some regexp'
 myMap.addPageset({
 name: 'edit_profile',
 description: 'edit_profile page',
-pathRegexp: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/edit_profile'
+pathRegexp: 'some regexp'
 });
 
 myMap.addPageset({
