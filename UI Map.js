@@ -555,3 +555,27 @@ manager.addRollupRule({
 		return commands;
 	}
 });
+//car registartion//
+manager.addRollupRule({
+	name: 'register_car'
+	, description: 'register new car '
+	, args: []
+	, pre: 'new_car page is opened, all fields on new_car page are filled '
+	, post: 'edit_profile page is opened'
+    , commandMatchers: []
+	, getExpandedCommands: function(args) {
+		var commands = [];
+		
+		
+		commands.push({
+			command: 'clickAndWait'
+			, target: 'ui=new_car::nc_save_btn()'
+		});
+		commands.push({
+			command: 'assertLocation'
+			, target: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/edit_profile'
+		});
+		
+		return commands;
+	}
+});
