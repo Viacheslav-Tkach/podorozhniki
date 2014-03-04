@@ -176,7 +176,7 @@ locator:'//*[@id="musicPlayer1"]'
 myMap.addElement('new_car',{
 name: 'nc_save_btn',
 description:'save new car button',
-locator: '//*[@class="btn btn-default" and @name="idCar"]'
+locator: '//*[@class="btn btn-primary" and @name="idCar"]'
 });
 
 myMap.addElement('new_car',{
@@ -196,7 +196,7 @@ locator: '/html/body/div/div[2]/div[2]/div/div/div[2]/a'
 myMap.addElement ('edit_profile',{
 name: 'e_register_nc_link',
 description: 'link to register new car from edit_profile page',
-locator: '/html/body/div/div[2]/div[2]/div/div[2]/div/a'
+locator: '//*[@class="well"]/a[@href="/pdrzh/client/new_car"]'
 });
 
 var manager = new RollupManager();
@@ -556,7 +556,7 @@ manager.addRollupRule({
 		
 		commands.push({
 			command: 'assertLocation'
-			, target: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/edit_profile'
+			, target: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/new_car'
 		});
 		
 		/*Elements presence check*/
@@ -649,18 +649,7 @@ manager.addRollupRule({
 			command: 'assertEditable'
 			, target: 'ui=new_car::nc_music_player_check()'
 		});
-		commands.push({
-			command: 'assertEditable'
-			, target: 'ui=new_car::nc_save_btn()'
-		});
-		commands.push({
-			command: 'assertEditable'
-			, target: 'ui=new_car::nc_cancel_btn()'
-		});
-		commands.push({
-			command: 'assertEditable'
-			, target: 'ui=new_car::nc_back_link()'
-		});
+		
 				
 		/* Type and check car information */
 		
@@ -677,52 +666,52 @@ manager.addRollupRule({
 		commands.push({
 			command: 'type'
 			, target: 'ui=new_car::nc_vendor_field()'
-			, value: args.color
+			, value: args.vendor
 		});
 		commands.push({
 			command: 'assertValue'
 			, target: 'ui=new_car::nc_vendor_field()'
-			, value: args.color
+			, value: args.vendor
 		});
 		commands.push({
 			command: 'type'
 			, target: 'ui=new_car::nc_model_field()'
-			, value: args.color
+			, value: args.model
 		});
 		commands.push({
 			command: 'assertValue'
 			, target: 'ui=new_car::nc_model_field()'
-			, value: args.color
+			, value: args.model
 		});
 		commands.push({
 			command: 'type'
 			, target: 'ui=new_car::nc_year_field()'
-			, value: args.color
+			, value: args.year
 		});
 		commands.push({
 			command: 'assertValue'
 			, target: 'ui=new_car::nc_year_field()'
-			, value: args.color
+			, value: args.year
 		});
 		commands.push({
 			command: 'type'
 			, target: 'ui=new_car::nc_number_field()'
-			, value: args.color
+			, value: args.number
 		});
 		commands.push({
 			command: 'assertValue'
 			, target: 'ui=new_car::nc_number_field()'
-			, value: args.color
+			, value: args.number
 		});
 		commands.push({
 			command: 'type'
 			, target: 'ui=new_car::nc_seats_field()'
-			, value: args.color
+			, value: args.seats_amount
 		});
 		commands.push({
 			command: 'assertValue'
 			, target: 'ui=new_car::nc_seats_field()'
-			, value: args.color
+			, value: args.seats_amount
 		});
 		
 		/* Checkbox */
@@ -780,7 +769,7 @@ manager.addRollupRule({
 		});
 		//go to page of registering new car
 		commands.push({
-			command: 'assertElementPresence'
+			command: 'assertElementPresent'
 			, target: 'ui=edit_profile::e_register_nc_link()'
 		});
 		commands.push({
