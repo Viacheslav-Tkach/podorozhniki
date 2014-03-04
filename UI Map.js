@@ -518,12 +518,12 @@ manager.addRollupRule({
 	name: 'open_edit_profile'
 	, description: 'open edit_profile page'
 	, args: []
-	, pre: 'Podorojniki start page is opened'
-	, post: 'User logged to the system'
+	, pre: 'User logged to the system'
+	, post: 'edit profile page opened'
     , commandMatchers: []
 	, getExpandedCommands: function(args) {
 		var commands = [];
-		
+		// go to edit_profile page
 		commands.push({
 			command: 'assertElementPresent'
 			, target: 'ui=main_page::edit_btn()'
@@ -532,9 +532,24 @@ manager.addRollupRule({
 			command: 'clickAndWait'
 			, target: 'ui=main_page::edit_btn()'
 		});
+		//check redirect to edit_profile page
 		commands.push({
 			command: 'assertLocation'
 			, target: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/edit_profile'
+		});
+		//go to page of registering new car
+		commands.push({
+			command: 'assertElementPresence'
+			, target: 'ui=edit_profile::e_register_nc_link()'
+		});
+		commands.push({
+			command: 'clickAndWait'
+			, target: 'ui=edit_profile::e_register_nc_link()'
+		});
+		//check redirect to new car registration
+		commands.push({
+			command: 'assertLocation'
+			, target: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/new_car'
 		});
 		
 		return commands;
