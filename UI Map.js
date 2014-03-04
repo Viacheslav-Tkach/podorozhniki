@@ -821,3 +821,31 @@ manager.addRollupRule({
 		return commands;
 	}
 });
+//logout//
+manager.addRollupRule({
+	name: 'logout'
+	, description: 'logout function '
+	, args: []
+	, pre: ''
+	, post: 'mane_page is opened'
+    , commandMatchers: []
+	, getExpandedCommands: function(args) {
+		var commands = [];
+		
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=main_page::logout_btn()'
+		});
+		commands.push({
+			command: 'clickAndWait'
+			, target: 'ui=main_page::logout_btn()'
+		});
+		commands.push({
+			command: 'assertLocation'
+			, target: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/main'
+		});
+	
+		return commands;
+	}
+});
+	
