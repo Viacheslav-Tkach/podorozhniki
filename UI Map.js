@@ -129,6 +129,47 @@ name:'nc_color_field',
 description:'Car color',
 locator:'//*[@id="color"]'
 });
+myMap.addElement('new_car',{
+name:'nc_vendor_field',
+description:'vendor',
+locator:'//*[@id="vendor"]'
+});
+myMap.addElement('new_car',{
+name:'nc_model_field',
+description:'Car model',
+locator:'//*[@id="model"]'
+});
+myMap.addElement('new_car',{
+name:'nc_year_field',
+description:'Car year',
+locator:'//*[@id="year"]'
+});
+myMap.addElement('new_car',{
+name:'nc_number_field',
+description:'Car number',
+locator:'//*[@id="number"]'
+});
+myMap.addElement('new_car',{
+name:'nc_seats_field',
+description:'number of seats',
+locator:'//*[@id="seats"]'
+});
+myMap.addElement('new_car',{
+name:'nc_conditioner_check',
+description:'Conditioner presentence',
+locator:'//*[@id="conditioner1"]'
+});
+myMap.addElement('new_car',{
+name:'nc_radio_check',
+description:'Radio presentence',
+locator:'//*[@id="radio1"]'
+});
+myMap.addElement('new_car',{
+name:'nc_music_player_check',
+description:'Music player presentence',
+locator:'//*[@id="musicPlayer1"]'
+});
+
 
 
 
