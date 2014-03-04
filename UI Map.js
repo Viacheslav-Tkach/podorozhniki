@@ -513,3 +513,245 @@ manager.addRollupRule({
 		return commands;
 	}
 });
+
+/* Input new car values */
+manager.addRollupRule({
+    name: 'input_new_car_value'
+    , description: 'Inputs information about new car'
+    , args: [
+		{
+			name: 'color' 
+			, description: 'color'
+		},
+		{
+			name: 'vendor'
+			, description: 'vendor'
+		},
+		{
+			name: 'model' 
+			, description: 'model'
+		},
+		{
+			name: 'year'
+			, description: 'year'
+		},
+		{
+			name: 'number' 
+			, description: 'number'
+		},
+		{
+			name: 'seats_amount'
+			, description: 'seats_amount'
+		}
+		
+    ]
+	, pre: 'Add new car page is open'
+	, post: 'User is on edit profile page'
+    , commandMatchers: []
+	, getExpandedCommands: function(args) {
+		var commands = [];
+		
+		/*Assert location*/
+		
+		commands.push({
+			command: 'assertLocation'
+			, target: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/edit_profile'
+		});
+		
+		/*Elements presence check*/
+		
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=new_car::nc_color_field()'
+		});
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=new_car::nc_vendor_field()'
+		});
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=new_car::nc_year_field()'
+		});
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=new_car::nc_year_field()'
+		});
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=new_car::nc_number_field()'
+		});
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=new_car::nc_seats_field()'
+		});
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=new_car::nc_conditioner_check()'
+		});
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=new_car::nc_radio_check()'
+		});
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=new_car::nc_music_player_check()'
+		});
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=new_car::nc_save_btn()'
+		});
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=new_car::nc_cancel_btn()'
+		});
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=new_car::nc_seats_field()'
+		});
+		
+		/*Check if editable*/
+		
+		commands.push({
+			command: 'assertEditable'
+			, target: 'ui=new_car::nc_color_field()'
+			, value: args.login
+		});
+		commands.push({
+			command: 'assertEditable'
+			, target: 'ui=new_car::nc_vendor_field()'
+		});
+		commands.push({
+			command: 'assertEditable'
+			, target: 'ui=new_car::nc_model_field()'
+		});
+		commands.push({
+			command: 'assertEditable'
+			, target: 'ui=new_car::nc_year_field()'
+		});
+		commands.push({
+			command: 'assertEditable'
+			, target: 'ui=new_car::nc_number_field()'
+		});
+		commands.push({
+			command: 'assertEditable'
+			, target: 'ui=new_car::nc_seats_field()'
+		});
+		commands.push({
+			command: 'assertEditable'
+			, target: 'ui=new_car::nc_conditioner_check()'
+		});
+		commands.push({
+			command: 'assertEditable'
+			, target: 'ui=new_car::nc_radio_check()'
+		});
+		commands.push({
+			command: 'assertEditable'
+			, target: 'ui=new_car::nc_music_player_check()'
+		});
+		commands.push({
+			command: 'assertEditable'
+			, target: 'ui=new_car::nc_save_btn()'
+		});
+		commands.push({
+			command: 'assertEditable'
+			, target: 'ui=new_car::nc_cancel_btn()'
+		});
+		commands.push({
+			command: 'assertEditable'
+			, target: 'ui=new_car::nc_back_link()'
+		});
+				
+		/* Type and check car information */
+		
+		commands.push({
+			command: 'type'
+			, target: 'ui=new_car::nc_color_field()'
+			, value: args.color
+		});
+		commands.push({
+			command: 'assertValue'
+			, target: 'ui=new_car::nc_color_field()'
+			, value: args.color
+		});
+		commands.push({
+			command: 'type'
+			, target: 'ui=new_car::nc_vendor_field()'
+			, value: args.color
+		});
+		commands.push({
+			command: 'assertValue'
+			, target: 'ui=new_car::nc_vendor_field()'
+			, value: args.color
+		});
+		commands.push({
+			command: 'type'
+			, target: 'ui=new_car::nc_model_field()'
+			, value: args.color
+		});
+		commands.push({
+			command: 'assertValue'
+			, target: 'ui=new_car::nc_model_field()'
+			, value: args.color
+		});
+		commands.push({
+			command: 'type'
+			, target: 'ui=new_car::nc_year_field()'
+			, value: args.color
+		});
+		commands.push({
+			command: 'assertValue'
+			, target: 'ui=new_car::nc_year_field()'
+			, value: args.color
+		});
+		commands.push({
+			command: 'type'
+			, target: 'ui=new_car::nc_number_field()'
+			, value: args.color
+		});
+		commands.push({
+			command: 'assertValue'
+			, target: 'ui=new_car::nc_number_field()'
+			, value: args.color
+		});
+		commands.push({
+			command: 'type'
+			, target: 'ui=new_car::nc_seats_field()'
+			, value: args.color
+		});
+		commands.push({
+			command: 'assertValue'
+			, target: 'ui=new_car::nc_seats_field()'
+			, value: args.color
+		});
+		
+		/* Checkbox */
+	
+		commands.push({
+			command: 'check'
+			, target: 'ui=new_car::nc_conditioner_check()'
+		});
+		commands.push({
+			command: 'assertChecked'
+			, target: 'ui=new_car::nc_conditioner_check()'
+		});
+		commands.push({
+			command: 'check'
+			, target: 'ui=new_car::nc_radio_check()'
+		});
+		commands.push({
+			command: 'assertChecked'
+			, target: 'ui=new_car::nc_radio_check()'
+		});
+		commands.push({
+			command: 'check'
+			, target: 'ui=new_car::nc_music_player_check()'
+		});
+		commands.push({
+			command: 'assertChecked'
+			, target: 'ui=new_car::nc_music_player_check()'
+		});
+				
+		
+		return commands;
+	}
+});
