@@ -655,10 +655,10 @@ manager.addRollupRule({
 			command: 'clickAndWait'
 			, target: 'ui=edit_profile::car_remove_link()'
 		});
-		commands.push({
+		/*commands.push({
 			command: 'assertLocation'
 			, target: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/edit_profile'
-		});
+		});*/
 	
 		return commands;
 	}
