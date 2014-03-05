@@ -64,7 +64,8 @@ locator: '//*[@id="email"]'
 myMap.addElement('registration_page', {
 name: 'r_agree_check',
 description: 'r_agree field',
-locator: '/html/body/div/div[2]/div/div/div/div/form/fieldset/div[7]/input'
+locator: '//*[@id="agree"]/input'
+/*'/html/body/div/div[2]/div/div/div/div/form/fieldset/div[7]/input'*/
 });
 myMap.addElement('registration_page', {
 name: 'r_submit_btn',
@@ -75,7 +76,7 @@ locator: '//*[@id="b"]'
 myMap.addElement('registration_page', {
 name: 'r_back_btn',
 description: 'r_back button',
-locator: '/html/body/div/div[2]/div/div/div/div/form/fieldset/a'
+locator: '//a[@href="back"]'/*'/html/body/div/div[2]/div/div/div/div/form/fieldset/a'*/
 });
 
 /* Elements for login page*/
@@ -100,7 +101,7 @@ locator: '//*[@class="btn btn-primary" and @name="submit"]'
 myMap.addElement('login_page', {
 name: 'register_link',
 description: 'registration link',
-locator: '/html/body/div/div/div[2]/form/fieldset/div[2]/div/p/a'
+locator: '//*[@id="clientLogin"]//a[contains(text(), "Register")]'/*/html/body/div/div/div[2]/form/fieldset/div[2]/div/p/a'*/
 });
 
 /* Elements for main page*/
@@ -108,7 +109,7 @@ locator: '/html/body/div/div/div[2]/form/fieldset/div[2]/div/p/a'
 myMap.addElement('main_page', {
 name: 'logout_btn',
 description: 'logout button',
-locator: '//*[@class="btn btn-default" and @href="/pdrzh/j_spring_security_logout"]'
+locator: 'css=a:contains("Logout")'
 });
 
 myMap.addElement('main_page', {
@@ -182,13 +183,13 @@ locator: '//*[@class="btn btn-primary" and @name="idCar"]'
 myMap.addElement('new_car',{
 name: 'nc_cancel_btn',
 description:'cancel button on new_car page',
-locator: '/html/body/div/div[2]/div[2]/div/div/div/form/fieldset/div[10]/div/button[2]'
+locator: '//button[contains(text(),"Cancel")]'
 });
 
 myMap.addElement('new_car',{
 name: 'nc_back_link',
 description: 'back_button link',
-locator: '/html/body/div/div[2]/div[2]/div/div/div[2]/a'
+locator: '//a[contains(text(),"Back")]'
 });
 
 /* Elements for edit_profile page */
