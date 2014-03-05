@@ -228,7 +228,7 @@ locator:'//*[@class="table table-striped table-bordered table-hover"]/tr[last()]
 myMap.addElement ('edit_profile',{
 name: 'car_remove_link',
 description: 'link to remove car',
-locator:'//*[@class="table table-striped table-bordered table-hover"]/tr/td/a[@href="/pdrzh/client/remove_car/41"]'
+locator:'//*[@class="table table-striped table-bordered table-hover"]/tr[last()]/td/a[@href="/pdrzh/client/remove_car/41"]'
 });
 
 
