@@ -203,25 +203,25 @@ locator: '//*[@class="well"]/a[@href="/pdrzh/client/new_car"]'
 
 myMap.addElement ('edit_profile',{
 name: 'car_color',
-description: '',
+description: 'car_color',
 locator:'//*[@class="table table-striped table-bordered table-hover"]/tr[last()]/td[1]'
 });
 
 myMap.addElement ('edit_profile',{
 name: 'car_model',
-description: '',
+description: 'car_model',
 locator:'//*[@class="table table-striped table-bordered table-hover"]/tr[last()]/td[2]'
 });
 
 myMap.addElement ('edit_profile',{
 name: 'car_number',
-description: '',
+description: 'car_number',
 locator:'//*[@class="table table-striped table-bordered table-hover"]/tr[last()]/td[3]'
 });
 
 myMap.addElement ('edit_profile',{
 name: 'car_seats',
-description: '',
+description: 'car_seats',
 locator:'//*[@class="table table-striped table-bordered table-hover"]/tr[last()]/td[4]'
 });
 
