@@ -636,4 +636,31 @@ manager.addRollupRule({
 		return commands;
 	}
 });
+	/*Car remove*/
+manager.addRollupRule({
+	name: 'remove_car'
+	, description: 'Removing last car '
+	, args: []
+	, pre: 'There are cars in table, edit_profile page is opened'
+	, post: 'last car removed'
+    , commandMatchers: []
+	, getExpandedCommands: function(args) {
+		var commands = [];
+		
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=edit_profile::car_remove_link()'
+		});
+		commands.push({
+			command: 'clickAndWait'
+			, target: 'ui=edit_profile::car_remove_link()'
+		});
+		commands.push({
+			command: 'assertLocation'
+			, target: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/edit_profile'
+		});
+	
+		return commands;
+	}
+});	
 	
