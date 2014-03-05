@@ -1,5 +1,7 @@
 var manager = new RollupManager();
 
+var car_values =[];
+
 /* Open start page */
 manager.addRollupRule({
     name: 'open_start_page'
@@ -350,7 +352,7 @@ manager.addRollupRule({
     , commandMatchers: []
 	, getExpandedCommands: function(args) {
 		var commands = [];
-		
+		car_values = args;
 		/*Assert location*/
 		
 		commands.push({
@@ -604,7 +606,50 @@ manager.addRollupRule({
 			command: 'assertLocation'
 			, target: 'http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/edit_profile'
 		});
-
+		/* table item presents*/
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=edit_profile::car_color()'
+		});
+		
+		commands.push({
+			command: 'assertText'
+			, target: 'ui=edit_profile::car_color()'
+			, value: car_values.color
+		});
+		
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=edit_profile::car_model()'
+		});
+		
+		commands.push({
+			command: 'assertText'
+			, target: 'ui=edit_profile::car_model()'
+			, value: car_values.model
+		});
+		
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=edit_profile::car_number()'
+		});
+		
+		commands.push({
+			command: 'assertText'
+			, target: 'ui=edit_profile::car_number()'
+			, value: car_values.number
+		});
+		
+		commands.push({
+			command: 'assertElementPresent'
+			, target: 'ui=edit_profile::car_seats()'
+		});
+		
+		commands.push({
+			command: 'assertText'
+			, target: 'ui=edit_profile::car_seats()'
+			, value: car_values.seats_amount
+		});
 		
 		return commands;
 	}
