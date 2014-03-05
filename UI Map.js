@@ -199,3 +199,36 @@ description: 'link to register new car from edit_profile page',
 locator: '//*[@class="well"]/a[@href="/pdrzh/client/new_car"]'
 });
 
+	/* element for car table */
+
+myMap.addElement ('edit_profile',{
+name: 'car_color',
+description: '',
+locator:'//*[@class="table table-striped table-bordered table-hover"]/tr[last()]/td[1]'
+});
+
+myMap.addElement ('edit_profile',{
+name: 'car_model',
+description: '',
+locator:'//*[@class="table table-striped table-bordered table-hover"]/tr[last()]/td[2]'
+});
+
+myMap.addElement ('edit_profile',{
+name: 'car_number',
+description: '',
+locator:'//*[@class="table table-striped table-bordered table-hover"]/tr[last()]/td[3]'
+});
+
+myMap.addElement ('edit_profile',{
+name: 'car_seats',
+description: '',
+locator:'//*[@class="table table-striped table-bordered table-hover"]/tr[last()]/td[4]'
+});
+
+myMap.addElement ('edit_profile',{
+name: 'car_remove_link',
+description: 'link to remove car',
+locator:'//*[@class="table table-striped table-bordered table-hover"]/tr/td/a[@href="/pdrzh/client/remove_car/41"]'
+});
+
+
