@@ -2,6 +2,7 @@ var manager = new RollupManager();
 
 var car_values =[];
 
+
 /* Open start page */
 manager.addRollupRule({
     name: 'open_start_page'
@@ -12,6 +13,8 @@ manager.addRollupRule({
     , commandMatchers: []
 	, getExpandedCommands: function(args) {
 		var commands = [];
+		//var loginTrue=false;
+		
 		commands.push({
 			command: 'open'
 			, target: '/pdrzh/main'
@@ -19,6 +22,45 @@ manager.addRollupRule({
 		commands.push({
 			command: 'waitForPageToLoad'
 		});
+		commands.push({
+			command: 'storeElementPresent'
+			, target: 'ui=main_page::logout_btn()'
+			, value: 'loginTrue'
+		});
+		
+		commands.push({
+			command: 'rollup'
+			, target: 'check_login'
+			, value: 'loginTrue=${loginTrue}'
+		});
+				
+		
+		return commands;
+	}
+});
+//logout if login
+manager.addRollupRule({
+    name: 'check_login'
+    , description: 'check if log in'
+    , args: [
+		{
+			name: 'loginTrue'
+			, description: 'check for login'
+		}
+	
+	]
+	, pre: 'Start page is opened'
+	, post: ' if log in - then logout'
+    , commandMatchers: []
+	, getExpandedCommands: function(args) {
+		var commands = [];
+		
+		if (args.loginTrue == "true"){
+		commands.push({
+			command: 'rollup'
+			, target: 'logout'
+		});
+		}
 		
 		
 		return commands;
