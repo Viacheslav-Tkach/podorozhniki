@@ -1,23 +1,14 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package autotests;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Properties;
 
-/**
- *
- * @author Viacheslav_Tkach
- */
+
 public class AutoTests {
     
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) throws SQLException {
         AutoTests at= new AutoTests();
         
@@ -25,6 +16,7 @@ public class AutoTests {
         
         ResultSet result = at.queryExec(quer);
         ArrayList<String> line = new ArrayList();
+        //вывод результата запроса
         while(result.next()) { // process results one row at a time
             System.out.println("");
             line.clear();
@@ -40,7 +32,7 @@ public class AutoTests {
             }
         }
     } 
-        
+
      public ResultSet queryExec(String quer) throws SQLException{
          
         DBSelector dbs=new DBSelector();

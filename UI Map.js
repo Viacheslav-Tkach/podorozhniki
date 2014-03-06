@@ -115,7 +115,7 @@ locator: 'css=a:contains("Logout")'
 myMap.addElement('main_page', {
 name: 'username',
 description: 'user name',
-locator: '/html/body/div/div/div[2]/div/div'   //'//*[@id="log"]'
+locator: '//*[@class="col-lg-3"]/span'   
 });
 myMap.addElement('main_page',{
 name: 'edit_btn',
