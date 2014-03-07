@@ -1,22 +1,11 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Properties;
 
-/**
- *
- * @author Viacheslav_Tkach
- */
 public class AutoTests {
     
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) throws SQLException {
         AutoTests at= new AutoTests();
         
@@ -39,7 +28,8 @@ public class AutoTests {
             }
         }*/
         PdrzhLogin pl = new PdrzhLogin();
-        pl.login();
+        pl.login("abc","abc");
+        pl.logout();
         pl.cleanup();
         
     } 
