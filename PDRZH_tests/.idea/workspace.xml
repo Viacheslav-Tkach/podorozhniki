@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c99b4a87-edca-4929-a637-ff6f24d773cf" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\AlexWork\PDRZH\AutoTests\build.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AlexWork\PDRZH\AutoTests\manifest.mf" afterPath="" />
-      <change type="DELETED" beforePath="D:\AlexWork\PDRZH\AutoTests\nbproject\build-impl.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AlexWork\PDRZH\AutoTests\nbproject\genfiles.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\AlexWork\PDRZH\AutoTests\nbproject\project.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\AlexWork\PDRZH\AutoTests\nbproject\project.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AlexWork\PDRZH\AutoTests\src\autotests\AutoTests.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\AlexWork\PDRZH\AutoTests\src\autotests\DBSelector.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\AlexWork\PDRZH\PDRZH_tests\src\main\java\AlexDbSelector.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" />
+      <change type="DELETED" beforePath="D:\AlexWork\PDRZH\PDRZH_tests\src\main\java\ClickJsSubmit.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PDRZH_tests.iws" />
@@ -76,28 +67,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="10" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+            <state line="23" column="10" selection-start="813" selection-end="813" vertical-scroll-proportion="0.41551542" vertical-offset="0" max-vertical-offset="941">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClickJsSubmit.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ClickJsSubmit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="629">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PdrzhLogin.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PdrzhLogin.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PdrzhLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="977" selection-end="977" vertical-scroll-proportion="0.46971306" vertical-offset="0" max-vertical-offset="941">
+            <state line="12" column="9" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -137,6 +119,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -144,7 +129,6 @@
         <option value="$PROJECT_DIR$/src/main/java/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Secondtest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SecondTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ClickJsSubmit.java" />
         <option value="$PROJECT_DIR$/src/main/java/SendKeysTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FailSendKeysTest.java" />
         <option value="$USER_HOME$/Desktop/podorozhkini_auto/UI Map.js" />
@@ -154,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/main/java/DbSelector.java" />
         <option value="$PROJECT_DIR$/src/main/java/DBSelector.java" />
         <option value="$PROJECT_DIR$/src/main/java/AlexDbSelector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ClickJsSubmit.java" />
       </list>
     </option>
   </component>
@@ -304,7 +289,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AutoTests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -606,6 +591,11 @@
       <created>1393253627552</created>
       <updated>1393253627552</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project update&#10;">
+      <created>1394199114794</created>
+      <updated>1394199114794</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -613,7 +603,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912722" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -622,6 +612,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912722" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.05986696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -632,7 +623,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21240799" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
     </layout>
@@ -649,6 +639,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Project update&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project update&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -661,13 +653,6 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="10" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClickJsSubmit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
@@ -707,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClickJsSubmit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PdrzhLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="629">
@@ -749,13 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClickJsSubmit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PdrzhLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="5" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="629">
@@ -773,13 +744,6 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="10" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClickJsSubmit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
@@ -805,16 +769,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClickJsSubmit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="10" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+        <state line="23" column="10" selection-start="813" selection-end="813" vertical-scroll-proportion="0.41551542" vertical-offset="0" max-vertical-offset="941">
           <folding />
         </state>
       </provider>
@@ -826,16 +783,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClickJsSubmit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DBSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PdrzhLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="977" selection-end="977" vertical-scroll-proportion="0.46971306" vertical-offset="0" max-vertical-offset="941">
+        <state line="16" column="8" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
@@ -847,9 +797,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DBSelector.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PdrzhLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+        <state line="12" column="9" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
