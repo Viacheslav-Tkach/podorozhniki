@@ -5,23 +5,78 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
-/**
- * Created by Oleksandr_Rybkin on 05.03.14.
- */
+
+        
 public class PdrzhLogin {
+    
+    // global xpath elements (UI map)
+
+/* Elements for login page*/
+private String login_field = "//*[@id=\"inputUsername\"]";
+private String password_field = "//*[@id=\"inputPassw\"]";
+private String login_btn = "//*[@class=\"btn btn-primary\" and @name=\"submit\"]";
+private String register_link =  "//*[@id=\"clientLogin\"]//a[contains(text(), \"Register\")]";
+/* Elements for main page*/
+private String logout_btn = "//*[@class=\"btn btn-default\" and @href=\"/pdrzh/j_spring_security_logout\"]";
+private String username = "//*[@class=\"col-lg-3\"]/span";
+private String edit_btn = "//*[@class=\"btn btn-primary\" and @href=\"/pdrzh/client/edit_profile\"]";
+/*Elements for new_car page*/
+private String nc_color_field = "//*[@id=\"color\"]";
+private String nc_vendor_field = "//*[@id=\"vendor\"]";
+private String nc_model_field = "//*[@id=\"model\"]";
+private String nc_year_field = "//*[@id=\"year\"]";
+private String nc_number_field = "//*[@id=\"number\"]";
+private String nc_seats_field = "//*[@id=\"seats\"]";
+private String nc_conditioner_check = "//*[@id=\"conditioner1\"]";
+private String nc_radio_check = "//*[@id=\"radio1\"]";
+private String nc_music_player_check = "//*[@id=\"musicPlayer1\"]";
+private String nc_save_btn = "//*[@class=\"btn btn-primary\" and @name=\"idCar\"]";
+private String nc_cancel_btn = "//button[contains(text(),\"Cancel\")]";
+private String nc_back_link = "//a[contains(text(),\"Back\")]";
+/* Elements for edit_profile page */
+private String car_color = "//*[@class=\"table table-striped table-bordered table-hover\"]/tbody/tr[last()]/td[1]";
+private String car_model = "//*[@class=\"table table-striped table-bordered table-hover\"]/tbody/tr[last()]/td[2]";
+private String car_number = "//*[@class=\"table table-striped table-bordered table-hover\"]/tbody/tr[last()]/td[3]";
+private String car_seats = "//*[@class=\"table table-striped table-bordered table-hover\"]/tbody/tr[last()]/td[4]";
+private String car_remove_link = "//*[@class=\"table table-striped table-bordered table-hover\"]/tbody/tr[last()]/td[last()]/a[last()]";
+    
+    
     WebDriver driver;
     @Test
-    public void login(){
+    //open start page and login
+    public void login(String usr, String passwd){
         driver = new FirefoxDriver();
         driver.get("http://evbyminsd7238.minsk.epam.com:8080/pdrzh/main");
         Assert.assertEquals(driver.getTitle(), "EPAM PDRZH", "Title is not as expected");
-        driver.findElement(By.id("inputUsername")).sendKeys("alex");
-        driver.findElement(By.id("inputPassw")).sendKeys("123456");
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
-        Assert.assertTrue((driver.findElement((By.xpath("//a[.='Logout']"))).isDisplayed()),"Not as expected");
+        driver.findElement(By.xpath(login_field)).sendKeys(usr);
+        driver.findElement(By.xpath(password_field)).sendKeys(passwd);
+        driver.findElement(By.xpath(login_btn)).click();
+        
         
     }
-
+    //open profile page
+    public void open_edit_profile(){
+        
+    }
+    // input values for new car
+    public void input_new_car_value(String color, String vendor, String model, String year, String number, String seats){
+        
+    }
+    //click "Save" to registr a car
+    public void register_car(){
+        
+    }
+    //remove car
+    public void remove_car(){
+        
+    }
+    //log out
+    public void logout(){
+        Assert.assertTrue((driver.findElement(By.xpath(logout_btn)).isDisplayed()),"Not as expected");
+        driver.findElement(By.xpath(logout_btn)).click();
+    }
+    
+    
     @AfterClass
     public void cleanup(){
         driver.quit();
