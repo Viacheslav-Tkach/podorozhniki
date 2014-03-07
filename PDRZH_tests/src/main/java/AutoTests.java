@@ -24,7 +24,7 @@ public class AutoTests {
         
         ResultSet result = at.queryExec(quer);
         ArrayList<String> line = new ArrayList();
-        while(result.next()) { // process results one row at a time
+        /*while(result.next()) { // process results one row at a time
             System.out.println("");
             line.clear();
             
@@ -37,7 +37,11 @@ public class AutoTests {
             for (int j=0; j<line.size();j++){
                 System.out.print(line.get(j)+ "   ");
             }
-        }
+        }*/
+        PdrzhLogin pl = new PdrzhLogin();
+        pl.login();
+        pl.cleanup();
+        
     } 
         
      public ResultSet queryExec(String quer) throws SQLException{
