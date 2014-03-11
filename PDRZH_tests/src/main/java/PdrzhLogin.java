@@ -4,8 +4,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
-
-
+import org.openqa.selenium.NoSuchElementException;
         
 public class PdrzhLogin {
     
@@ -39,25 +38,82 @@ private String car_model = "//*[@class=\"table table-striped table-bordered tabl
 private String car_number = "//*[@class=\"table table-striped table-bordered table-hover\"]/tbody/tr[last()]/td[3]";
 private String car_seats = "//*[@class=\"table table-striped table-bordered table-hover\"]/tbody/tr[last()]/td[4]";
 private String car_remove_link = "//*[@class=\"table table-striped table-bordered table-hover\"]/tbody/tr[last()]/td[last()]/a[last()]";
-    
+private String car_register_link = "//*[@class=\"well\"]/a[@href=\"/pdrzh/client/new_car\"]";    
     
     WebDriver driver;
     @Test
     //open start page and login
-    public void login(String usr, String passwd){
+    public void open_start_page(){
         driver = new FirefoxDriver();
         driver.get("http://evbyminsd7238.minsk.epam.com:8080/pdrzh/main");
         Assert.assertEquals(driver.getTitle(), "EPAM PDRZH", "Title is not as expected");
+        System.out.println("[LOG] Start page open");
+    }
+    
+    public void login(String usr, String passwd){
+        try{
+        
+            driver.findElement(By.xpath(login_field));
+            driver.findElement(By.xpath(password_field));
+            driver.findElement(By.xpath(login_btn));
+        } catch(NoSuchElementException e){
+            System.err.println("[ERROR] Element on main page before log in not found");
+            return;
+        }
+        
         driver.findElement(By.xpath(login_field)).sendKeys(usr);
         driver.findElement(By.xpath(password_field)).sendKeys(passwd);
         driver.findElement(By.xpath(login_btn)).click();
         
-        
+        try{
+            driver.findElement(By.xpath(username));
+        }catch(NoSuchElementException e){
+            System.err.println("[ERROR] Element on main page not found");
+            return;
+        }
+        //Assert.assertEquals(driver.findElement(By.xpath(username)).getText(), usr, "wrong log in");
+        if (!usr.equals(driver.findElement(By.xpath(username)).getText())){
+            System.out.println("[ERROR] Wrong log in");
+            return;
+        }
+        System.out.println("[LOG] Sucessfull log in");
     }
     //open profile page
     public void open_edit_profile(){
-        
+        try{
+            driver.findElement(By.xpath(edit_btn));
+        }
+        catch(NoSuchElementException e){
+            System.err.println("[ERROR] Element on main page not found");
+            return;
+        }
+        driver.findElement(By.xpath(edit_btn)).click();
+  
+        if (!driver.getCurrentUrl().equals("http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/edit_profile")){
+            System.out.println("[ERROR] Incorrect page");
+            return;
+        }
+        System.out.println("[LOG] Edit_profile page open");
     }
+    
+    public void open_register_car_page(){
+        
+        try{
+            driver.findElement(By.xpath(car_register_link));
+        }
+        catch(NoSuchElementException e){
+            System.err.println("[ERROR] Element on edit page not found");
+            return;
+        }
+        driver.findElement(By.xpath(car_register_link)).click();
+  
+        if (!driver.getCurrentUrl().equals("http://evbyminsd7238.minsk.epam.com:8080/pdrzh/client/new_car")){
+            System.out.println("[ERROR] Incorrect page");
+            return;
+        }
+        System.out.println("[LOG] New_car page open");
+    }
+    
     // input values for new car
     public void input_new_car_value(String color, String vendor, String model, String year, String number, String seats){
         
@@ -74,12 +130,14 @@ private String car_remove_link = "//*[@class=\"table table-striped table-bordere
     public void logout(){
         Assert.assertTrue((driver.findElement(By.xpath(logout_btn)).isDisplayed()),"Not as expected");
         driver.findElement(By.xpath(logout_btn)).click();
+        System.out.println("[LOG] Successfull log out");
     }
     
     
     @AfterClass
     public void cleanup(){
         driver.quit();
+        System.out.println("[LOG] Web browser closed");
     }
 
 }
