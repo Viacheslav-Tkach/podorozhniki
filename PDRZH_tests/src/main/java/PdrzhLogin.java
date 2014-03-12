@@ -217,7 +217,7 @@ public class PdrzhLogin {
         try{
             driver.findElement(By.xpath(logout_btn));
         }catch (NoSuchElementException e){
-            System.out.println("[ERROR] Element on main page not found");
+            System.out.println("[ERROR] 'Log out' button not found");
                     
         }
         //Assert.assertTrue((driver.findElement(By.xpath(logout_btn)).isDisplayed()), "Not as expected");
