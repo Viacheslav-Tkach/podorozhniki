@@ -42,8 +42,9 @@ public class AutoTests {
         pl.open_register_car_page();
         pl.input_new_car_value(car_color, car_vendor, car_model, car_year, car_number, car_seats);
         pl.register_car(car_color, car_vendor, car_model, car_year, car_number, car_seats);
-        //pl.logout();
-        //pl.cleanup();
+        pl.remove_car();
+        pl.logout();
+        pl.cleanup();
             
         }
 
