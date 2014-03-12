@@ -132,7 +132,7 @@ public class PdrzhLogin {
             driver.findElement(By.xpath(nc_cancel_btn));
             driver.findElement(By.xpath(nc_back_link));
         } catch (NoSuchElementException e) {
-            System.err.println("[ERROR] Element on edit page not found");
+            System.err.println("[ERROR] Element on new_car page not found");
             return;
         }
         driver.findElement(By.xpath(nc_color_field)).sendKeys(color);
@@ -150,11 +150,11 @@ public class PdrzhLogin {
 
     public void register_car(String color, String vendor, String model, String year, String number, String seats) throws SQLException {
         try {
-           
+
             driver.findElement(By.xpath(nc_save_btn));
-            
+
         } catch (NoSuchElementException e) {
-            System.err.println("[ERROR] Element on edit page not found");
+            System.err.println("[ERROR] Element on new_car page not found");
             return;
         }
         driver.findElement(By.xpath(nc_save_btn)).click();
@@ -163,21 +163,53 @@ public class PdrzhLogin {
             return;
         }
         System.out.println("[LOG] New car register");
-               
+
         //check registration car
-        String quer= "SELECT color, vendor, model, year, car_number, seats FROM car WHERE car_number='"+ number + "'";
-        DBSelector db =new DBSelector();
+        String quer = "SELECT color, vendor, model, year, car_number, seats FROM car WHERE car_number='" + number + "'";
+        DBSelector db = new DBSelector();
         ResultSet result = db.queryExec(quer);
         result.next();
-        if (result.getString(1)!=color && result.getString(2)!=vendor && result.getString(3)!=model && result.getString(4)!=year && result.getString(5)!=number && result.getString(6)!=seats){
+        if (!result.getString(1).equals(color)
+                && !result.getString(2).equals(vendor)
+                && !result.getString(3).equals(model)
+                && !result.getString(4).equals(year)
+                && !result.getString(5).equals(number)
+                && !result.getString(6).equals(seats)) {
             System.out.println("[ERROR] Incorrect value input into DB for new car");
+            return;
         }
         System.out.println("[LOG] Correct car register in DB");
-        
+        try {
+            driver.findElement(By.xpath(car_color));
+            driver.findElement(By.xpath(car_model));
+            driver.findElement(By.xpath(car_number));
+            driver.findElement(By.xpath(car_seats));
+            driver.findElement(By.xpath(car_remove_link));
+        } catch (NoSuchElementException e) {
+            System.out.println("[ERROR] element in car table not found");
+            return;
+        }
+        if (!driver.findElement(By.xpath(car_color)).getText().equals(color)
+                && !driver.findElement(By.xpath(car_model)).getText().equals(model)
+                && !driver.findElement(By.xpath(car_number)).getText().equals(number)
+                && !driver.findElement(By.xpath(car_seats)).getText().equals(seats)) {
+            System.out.println("[ERROR] Incorrect value in car table");
+        }
+        System.out.println("[LOG] Correct car value in car table");
     }
-    //remove car
+        //remove car
 
     public void remove_car() {
+        try {
+            driver.findElement(By.xpath(car_remove_link));
+        } catch (NoSuchElementException e) {
+            System.out.println("[ERROR] element in car table not found");
+            return;
+        }
+        
+            driver.findElement(By.xpath(car_remove_link)).click();
+        System.out.println("[LOG] New car sucessfully removed");
+
     }
     //log out
 
