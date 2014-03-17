@@ -20,7 +20,7 @@ public class AutoTests {
     public static void main(String[] args) throws SQLException {
         AutoTests at= new AutoTests();
         
-        String quer= "select * from car";
+        String quer= "select d from car";
         
         ResultSet result = at.queryExec(quer);
         ArrayList<String> line = new ArrayList();
