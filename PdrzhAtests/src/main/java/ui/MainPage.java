@@ -14,8 +14,8 @@ public class MainPage {
     }
     @FindBy(xpath = "//a[.='Edit']")
     WebElement editButton;
-
-    /*public EditPage enterEditPage(){
-
-    }*/
+    public EditPage enterEditPage(){
+    this.editButton.click();
+    return new EditPage();
+    }
 }
