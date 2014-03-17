@@ -42,14 +42,15 @@ public class PdrzhLogin {
     private String car_seats = "//*[@class=\"table table-striped table-bordered table-hover\"]/tbody/tr[last()]/td[4]";
     private String car_remove_link = "//*[@class=\"table table-striped table-bordered table-hover\"]/tbody/tr[last()]/td[last()]/a[last()]";
     private String car_register_link = "//*[@class=\"well\"]/a[@href=\"/pdrzh/client/new_car\"]";
+    
     WebDriver driver;
 
-    @Test
+    
     //open start page and login
     public void open_start_page() {
         driver = new FirefoxDriver();
         driver.get("http://evbyminsd7238.minsk.epam.com:8080/pdrzh/main");
-        Assert.assertEquals(driver.getTitle(), "EPAM PDRZH", "Title is not as expected");
+        //Assert.assertEquals(driver.getTitle(), "EPAM PDRZH", "Title is not as expected");
         System.out.println("[LOG] Start page open");
     }
 

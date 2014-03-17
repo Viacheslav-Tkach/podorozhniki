@@ -29,7 +29,7 @@ public class AutoTests {
             }
         }*/
         
-        String car_color="qwerty";
+        /*String car_color="qwerty";
         String car_vendor="qwerty";
         String car_model="qwerty";
         String car_year="1999";
@@ -44,7 +44,7 @@ public class AutoTests {
         pl.register_car(car_color, car_vendor, car_model, car_year, car_number, car_seats);
         pl.remove_car();
         pl.logout();
-        pl.cleanup();
+        pl.cleanup();*/
             
         }
 

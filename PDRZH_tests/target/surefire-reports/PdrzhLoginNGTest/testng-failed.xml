@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [PdrzhLoginNGTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="PdrzhLoginNGTest">
+        <methods>
+          <include name="testRemove_car"/>
+          <include name="testRegister_car"/>
+          <include name="testOpen_register_car_page"/>
+          <include name="testOpen_edit_profile"/>
+          <include name="testInput_new_car_value"/>
+          <include name="testCleanup"/>
+          <include name="testOpen_start_page"/>
+          <include name="testLogout"/>
+          <include name="setUpClass"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownClass"/>
+          <include name="testLogin"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- PdrzhLoginNGTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [PdrzhLoginNGTest] -->

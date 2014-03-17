@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: PdrzhLoginNGTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 10.811 sec <<< FAILURE!
+testCleanup(PdrzhLoginNGTest)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at PdrzhLogin.cleanup(PdrzhLogin.java:231)
+	at PdrzhLoginNGTest.testCleanup(PdrzhLoginNGTest.java:155)
+testInput_new_car_value(PdrzhLoginNGTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at PdrzhLogin.input_new_car_value(PdrzhLogin.java:123)
+	at PdrzhLoginNGTest.testInput_new_car_value(PdrzhLoginNGTest.java:101)
+testLogin(PdrzhLoginNGTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at PdrzhLogin.login(PdrzhLogin.java:60)
+	at PdrzhLoginNGTest.testLogin(PdrzhLoginNGTest.java:59)
+testLogout(PdrzhLoginNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at PdrzhLogin.logout(PdrzhLogin.java:219)
+	at PdrzhLoginNGTest.testLogout(PdrzhLoginNGTest.java:143)
+testOpen_edit_profile(PdrzhLoginNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at PdrzhLogin.open_edit_profile(PdrzhLogin.java:89)
+	at PdrzhLoginNGTest.testOpen_edit_profile(PdrzhLoginNGTest.java:71)
+testOpen_register_car_page(PdrzhLoginNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at PdrzhLogin.open_register_car_page(PdrzhLogin.java:106)
+	at PdrzhLoginNGTest.testOpen_register_car_page(PdrzhLoginNGTest.java:83)
+testOpen_start_page(PdrzhLoginNGTest)  Time elapsed: 10.143 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at PdrzhLoginNGTest.testOpen_start_page(PdrzhLoginNGTest.java:47)
+testRegister_car(PdrzhLoginNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at PdrzhLogin.register_car(PdrzhLogin.java:155)
+	at PdrzhLoginNGTest.testRegister_car(PdrzhLoginNGTest.java:119)
+testRemove_car(PdrzhLoginNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at PdrzhLogin.remove_car(PdrzhLogin.java:205)
+	at PdrzhLoginNGTest.testRemove_car(PdrzhLoginNGTest.java:131)
