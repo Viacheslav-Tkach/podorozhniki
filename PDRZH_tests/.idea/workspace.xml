@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c99b4a87-edca-4929-a637-ff6f24d773cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/pdrzh/webdriver/core/BaseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/pdrzh/webdriver/tests/CarInfoProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/pdrzh/webdriver/core/Driver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ui/EditPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ui/LoginPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ui/MainPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NewDemo/.idea/libraries/Maven__commons_lang_commons_lang_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NewDemo/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NewDemo/.idea/libraries/Maven__ru_yandex_qatools_htmlelements_htmlelements_all_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_htmlelements_htmlelements_all_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NewDemo/.idea/libraries/Maven__ru_yandex_qatools_htmlelements_htmlelements_java_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_htmlelements_htmlelements_java_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NewDemo/.idea/libraries/Maven__ru_yandex_qatools_htmlelements_htmlelements_matchers_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_htmlelements_htmlelements_matchers_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/pdrzh/webdriver/tests/NewCarTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ui/RegisterCarPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NewDemo/src/main/java/com/epam/webdriver/ui/ResultsPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NewDemo/src/main/java/com/epam/webdriver/ui/blocks/SearchResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NewDemo/src/main/java/com/epam/webdriver/ui/YaPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NewDemo/test.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/AutoTests.java" afterPath="$PROJECT_DIR$/src/main/java/AutoTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PDRZH_tests.iml" afterPath="$PROJECT_DIR$/PDRZH_tests.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PdrzhLogin.java" afterPath="$PROJECT_DIR$/src/main/java/PdrzhLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c99b4a87-edca-4929-a637-ff6f24d773cf" name="Default" comment="" />
     <ignored path="PDRZH_tests.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,33 +64,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="34" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Driver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/pdrzh/webdriver/core/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="25" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="1309">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BaseTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/pdrzh/webdriver/core/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,19 +76,39 @@
       <file leaf-file-name="LoginPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ui/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="35" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="663">
+            <state line="21" column="35" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PdrzhLogin.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PdrzhLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="13" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0" vertical-offset="643" max-vertical-offset="4845">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPage.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ui/MainPage.java">
+      <file leaf-file-name="DBSelector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DBSelector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.41319445" vertical-offset="0" max-vertical-offset="864">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="39" column="8" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="1003">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterCarPage.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RegisterCarPage.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ui/RegisterCarPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="28" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="221">
+            <state line="7" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.14149822" vertical-offset="0" max-vertical-offset="841">
               <folding />
             </state>
           </provider>
@@ -180,7 +143,16 @@
       <file leaf-file-name="NewCarTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/pdrzh/webdriver/tests/NewCarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="54" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="408">
+            <state line="14" column="29" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AutoTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="13" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125">
               <folding />
             </state>
           </provider>
@@ -369,92 +341,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PDRZH_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PDRZH_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PDRZH_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PDRZH_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdriver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PDRZH_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PDRZH_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webdriver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -477,7 +363,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PdrzhAtests" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -809,7 +695,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08092485" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25780347" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37109828" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39259258" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -873,7 +759,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="35" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="663">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -932,7 +820,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="8" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="850">
           <folding>
-            <element signature="e#0#1089#0" expanded="false" />
+            <element signature="e#0#1534#0" expanded="false" />
             <element signature="imports" expanded="false" />
           </folding>
         </state>
@@ -968,7 +856,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="8" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="782">
           <folding>
-            <element signature="e#0#1089#0" expanded="false" />
+            <element signature="e#0#1534#0" expanded="false" />
             <element signature="imports" expanded="false" />
           </folding>
         </state>
@@ -1036,37 +924,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DBSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="25" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <folding>
-            <element signature="e#0#1089#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutoTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PdrzhLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/RegisterCarPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="34" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
@@ -1102,13 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="35" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/pdrzh/webdriver/tests/CarInfoProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
@@ -1116,19 +966,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="35" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="663">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/pdrzh/webdriver/tests/NewCarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="54" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+        <state line="14" column="29" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AutoTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.41319445" vertical-offset="0" max-vertical-offset="864">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="14" column="13" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PdrzhLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="13" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0" vertical-offset="643" max-vertical-offset="4845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DBSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="8" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/RegisterCarPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.14149822" vertical-offset="0" max-vertical-offset="841">
+          <folding />
         </state>
       </provider>
     </entry>
