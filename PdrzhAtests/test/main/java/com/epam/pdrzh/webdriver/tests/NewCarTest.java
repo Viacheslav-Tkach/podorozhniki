@@ -17,7 +17,7 @@ public class NewCarTest extends BaseTest{
         MainPage mainPage = logPage.login(System.getProperty("test.login"), System.getProperty("test.passw"));
         EditPage editPage = mainPage.enterEditPage();
         RegisterCarPage regCarPage =  editPage.enterRegCarPage();
-        /*regCarPage.fieldsFillIn(color, vendor, model, year, number, seatsAmmount);*/
+        regCarPage.fieldsFillIn(color, vendor, model, year, number, seatsAmmount);
 
     }
 }

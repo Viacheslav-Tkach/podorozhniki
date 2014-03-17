@@ -69,7 +69,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/webdriver/tests/YaTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="0" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -965,7 +967,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/webdriver/tests/YaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
