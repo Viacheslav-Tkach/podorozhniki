@@ -16,21 +16,7 @@ public class RegisterCarPage {
         HtmlElementLoader.populatePageObject(this, Driver.get());
     }
 
-/*    @FindBy(id="save_car")
-    private List<
-            > searchResults;
-
-    public boolean isLinkInResults(String link) {
-        for (WebElement result : searchResults) {
-            if (result.getURL().equals(link)) {
-                System.out.println(result.getURL());
-                return true;
-            }
-        }
-        return false;
-    }*/
-
-   /* @FindBy(id = "color")
+    @FindBy(id = "color")
     WebElement fieldColor;
     @FindBy(id = "vendor")
     WebElement fieldVendor;
@@ -63,9 +49,20 @@ public class RegisterCarPage {
     return new RegisterCarPage();
     }
 
-    public RegisterCarPage checks(int checkConditioner, int checkRadio, int checkMusic){
-        if
-        this.checkConditioner.click();
-    }*/
+    public RegisterCarPage checks(int chkCond, int chkRadio, int chkMusic){
+
+        if (chkCond==1){
+            this.checkConditioner.click();}
+        if (chkRadio==1){
+            this.checkRedio.click();}
+        if (chkMusic==1){
+            this.checkMusic.click();}
+        return new RegisterCarPage();
+    }
+    public EditPage saveCar(){
+        this.buttonSave.click();
+        return new EditPage();
+
+    }
 
 }

@@ -1,5 +1,6 @@
 package ui.blocks;
 
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import ru.yandex.qatools.htmlelements.element.Link;
 import ru.yandex.qatools.htmlelements.element.HtmlElement;
@@ -9,10 +10,10 @@ import ru.yandex.qatools.htmlelements.element.HtmlElement;
  */
 public class CarInputs extends HtmlElement {
 
-/*
-    @FindBy(xpath = "//input")
-    Input mainLink;
-    public String getURL(){
-        return mainLink.getReference();
-    }*/
+
+    @FindBy(xpath = "//td")
+    WebElement cell;
+    public String getTXT(){
+        return cell.getText();
+    }
 }

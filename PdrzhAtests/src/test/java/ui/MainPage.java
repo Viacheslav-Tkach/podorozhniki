@@ -3,14 +3,18 @@ package ui;
 import com.epam.pdrzh.webdriver.core.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import ru.yandex.qatools.htmlelements.loader.HtmlElementLoader;
 
 /**
  * Created by Oleksandr_Rybkin on 14.03.14.
  */
 public class MainPage {
-    public MainPage(){
+   /* public MainPage(){
         HtmlElementLoader.populatePageObject(this, Driver.get());
+    }*/
+    public MainPage(){
+        PageFactory.initElements(Driver.get(), this);
     }
     @FindBy(xpath = "//a[.='Edit']")
     WebElement editButton;
