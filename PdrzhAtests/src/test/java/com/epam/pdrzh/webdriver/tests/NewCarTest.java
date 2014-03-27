@@ -34,10 +34,6 @@ public class NewCarTest extends BaseTest{
         editPage.removeAddedCar();
 
         Reporter.log("Test Completed");
-        Reporter.log("LOL", true);
-        Reporter.log("NeLOL", false);
-        Reporter.log("LOlLOLOL", 2, true);
-        Reporter.log("falseLOlLOLOL", 3, false);
     }
 
 }

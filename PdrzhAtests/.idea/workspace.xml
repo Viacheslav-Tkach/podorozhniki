@@ -2,49 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c1156f6-fc3d-459e-a9d6-3869608a4d77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_1_901_jdbc4.xml" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_android_driver_2_39_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_iphone_driver_2_39_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\com\epam\pdrzh\webdriver\core\BaseTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\com\epam\pdrzh\webdriver\core\Driver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\com\epam\pdrzh\webdriver\tests\CarInfoProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\com\epam\pdrzh\webdriver\tests\NewCarTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\ui\EditPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\ui\LoginPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\ui\MainPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\ui\RegisterCarPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\ui\blocks\CarInputs.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\test\java\DBSelector.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\DBSelector.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\com\epam\pdrzh\webdriver\core\BaseTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\com\epam\pdrzh\webdriver\core\Driver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\com\epam\pdrzh\webdriver\tests\CarInfoProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\ui\EditPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\ui\LoginPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\ui\MainPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\ui\RegisterCarPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\ui\blocks\CarInputs.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_api_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_ie_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_java_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_remote_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_safari_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_support_2_39_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\DBSelector.java" afterPath="$PROJECT_DIR$/src/test/java/utils/DBSelector.java" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\com\epam\pdrzh\webdriver\tests\NewCarTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/NewCarTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asd.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ui/AddRoutePage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/ExcelDataProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ui/MyRoutesPage.java" />
+      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\test\java\ui\MyRouts.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/BaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/CarInfoProvider.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/CarInfoProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ui/blocks/CarInputs.java" afterPath="$PROJECT_DIR$/src/test/java/ui/blocks/CarInputs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ui/EditPage.java" afterPath="$PROJECT_DIR$/src/test/java/ui/EditPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/Driver.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/Driver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/FindRouteTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/FindRouteTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ui/MainPage.java" afterPath="$PROJECT_DIR$/src/test/java/ui/MainPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/NewCarTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/NewCarTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/NewRouteTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/NewRouteTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/Custom suite/PdrzhAtests.html" afterPath="$PROJECT_DIR$/test-output/Custom suite/PdrzhAtests.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PdrzhAtests.iml" afterPath="$PROJECT_DIR$/PdrzhAtests.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ui/RegisterCarPage.java" afterPath="$PROJECT_DIR$/src/test/java/ui/RegisterCarPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/Custom suite/PdrzhAtests.xml" afterPath="$PROJECT_DIR$/test-output/Custom suite/PdrzhAtests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/RouteInfoProvider.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/RouteInfoProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/ScrShotTaker.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/ScrShotTaker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.pdrzh.webdriver.tests.NewCarTest.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.epam.pdrzh.webdriver.tests.NewCarTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/emailable-report.html" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/index.html" afterPath="$PROJECT_DIR$/test-output/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/index.html" afterPath="$PROJECT_DIR$/test-output/old/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Custom suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/test-output/old/Custom suite/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Custom suite/methods.html" afterPath="$PROJECT_DIR$/test-output/old/Custom suite/methods.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Custom suite/reporter-output.html" afterPath="$PROJECT_DIR$/test-output/old/Custom suite/reporter-output.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.properties" afterPath="$PROJECT_DIR$/test.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/testng-results.xml" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Custom suite/toc.html" afterPath="$PROJECT_DIR$/test-output/old/Custom suite/toc.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NewDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../NewDemo/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PDRZH_tests/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PDRZH_tests/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PdrzhAtests.iws" />
@@ -63,7 +52,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -99,9 +88,9 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_rules />
-    <ui_properties />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true" />
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -109,28 +98,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PdrzhAtests.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PdrzhAtests.iml">
+      <file leaf-file-name="FindRouteTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/FindRouteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarInfoProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/CarInfoProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ui/EditPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="30" selection-start="3362" selection-end="3362" vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="1853">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,28 +110,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterCarPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ui/RegisterCarPage.java">
+      <file leaf-file-name="CarInfoProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/CarInfoProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="28" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1156">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewCarTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="asd.jpeg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asd.jpeg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewCarTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/NewCarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.5904936" vertical-offset="102" max-vertical-offset="680">
+            <state vertical-scroll-proportion="0.0" vertical-offset="232" max-vertical-offset="765">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test-output/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="4845">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/BaseTest.java">
+      <file leaf-file-name="NewRouteTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/NewRouteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="425">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelDataProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/ExcelDataProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RouteInfoProvider.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/RouteInfoProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5798923" vertical-offset="0" max-vertical-offset="557">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -168,34 +184,20 @@
       <file leaf-file-name="Driver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="33" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1309">
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBSelector.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/DBSelector.java">
+      <file leaf-file-name="ScrShotTaker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/ScrShotTaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="8" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="3" selection-start="484" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ui/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="26" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="459">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="646">
+              <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -230,12 +232,22 @@
         <option value="$PROJECT_DIR$/src/test/java/ui/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/blocks/CarInputs.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/CarInfoProvider.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/Driver.java" />
-        <option value="$PROJECT_DIR$/test.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/EditPage.java" />
+        <option value="$PROJECT_DIR$/test.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/RouteInfoProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/Driver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/ScrShotTaker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/MyRouts.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/MyRoutsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/AddRoutePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/MyRoutesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/NewRouteTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/testoftests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/ExcelDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/FindRouteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/NewCarTest.java" />
       </list>
     </option>
@@ -247,10 +259,20 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
+    <option name="x" value="62" />
     <option name="y" value="-8" />
-    <option name="width" value="1863" />
+    <option name="width" value="1866" />
     <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -267,7 +289,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -311,6 +333,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test-output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PdrzhAtests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PdrzhAtests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -320,10 +356,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -453,7 +485,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PDRZH_tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java/excel-testng-demo-master" />
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
@@ -461,17 +493,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AlexWork\PDRZH\PdrzhAtests" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AlexWork\PDRZH\PdrzhAtests\src\main\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ui" />
       <recent name="com.epam.pdrzh.webdriver.tests" />
       <recent name="com.epam.pdrzh.webdriver.core" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\AlexWork\PDRZH\PdrzhAtests\src\main\java" />
-    </key>
   </component>
-  <component name="RunManager" selected="TestNG.NewCarTest">
+  <component name="RunManager" selected="Application.testoftests">
     <configuration default="false" name="NewCarTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PdrzhAtests" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -507,7 +539,87 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+    <configuration default="false" name="FindRouteTest.findRoute" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PdrzhAtests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.epam.pdrzh.webdriver.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.pdrzh.webdriver.tests.FindRouteTest" />
+      <option name="METHOD_NAME" value="findRoute" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FindRouteTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PdrzhAtests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.epam.pdrzh.webdriver.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.pdrzh.webdriver.tests.FindRouteTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61154" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testoftests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.pdrzh.webdriver.tests.testoftests" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PdrzhAtests" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
@@ -531,6 +643,7 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -539,19 +652,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -579,6 +679,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -632,14 +745,21 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="TestNG.NewCarTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.FindRouteTest.findRoute" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.FindRouteTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.testoftests" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.NewCarTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.testoftests" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.FindRouteTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.NewCarTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.FindRouteTest.findRoute" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -653,22 +773,8 @@
       <AnalysisUIOptions />
     </option>
   </component>
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -699,36 +805,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-8" width="1863" height="1096" extended-state="6" />
+    <frame x="62" y="-8" width="1866" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32769832" sideWeight="0.49961746" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32769832" sideWeight="0.49961746" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32769832" sideWeight="0.49961746" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32176656" sideWeight="0.6046243" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4074457" sideWeight="0.50193906" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899868" sideWeight="0.49961746" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32769832" sideWeight="0.49885234" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31606218" sideWeight="0.604548" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39378238" sideWeight="0.503876" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899868" sideWeight="0.49961746" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32665965" sideWeight="0.49811676" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32769832" sideWeight="0.49961746" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1301939" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4074457" sideWeight="0.49806094" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16722038" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39378238" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.4997227" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -741,336 +850,391 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="408" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/EditPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="14" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1292">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="605" column="0" selection-start="24861" selection-end="24861" vertical-scroll-proportion="0.0" vertical-offset="10285" max-vertical-offset="13396" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="713" column="0" selection-start="28342" selection-end="28342" vertical-scroll-proportion="0.0" vertical-offset="12121" max-vertical-offset="33065" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/internal/TestMethodWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="0" selection-start="3598" selection-end="3598" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5236" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="616" column="0" selection-start="22935" selection-end="22935" vertical-scroll-proportion="0.0" vertical-offset="10472" max-vertical-offset="27489" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/SuiteRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="347" column="0" selection-start="10591" selection-end="10591" vertical-scroll-proportion="0.0" vertical-offset="5899" max-vertical-offset="11373">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/TestNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1056" column="0" selection-start="32873" selection-end="32873" vertical-scroll-proportion="0.0" vertical-offset="17952" max-vertical-offset="34476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/DBSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/blocks/CarInputs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/EditPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="476">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/RegisterCarPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="120" selection-start="1157" selection-end="1237" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/CarInfoProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="425">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/NewCarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/blocks/CarInputs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/EditPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="493">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/blocks/CarInputs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/EditPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/RegisterCarPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="2" selection-start="453" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1309">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="663">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../NewDemo/NewDemo.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.39.0/selenium-api-2.39.0-sources.jar!/org/openqa/selenium/WebElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="7" selection-start="2556" selection-end="2556" vertical-scroll-proportion="0.33279485" vertical-offset="525" max-vertical-offset="3332" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.39.0/selenium-support-2.39.0-sources.jar!/org/openqa/selenium/support/FindBy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="18" selection-start="1867" selection-end="1867" vertical-scroll-proportion="0.33279485" vertical-offset="355" max-vertical-offset="1020" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ru/yandex/qatools/htmlelements/htmlelements-java/1.9/htmlelements-java-1.9.jar!/ru/yandex/qatools/htmlelements/element/HtmlElement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="428" selection-end="429" vertical-scroll-proportion="-0.0017636684" vertical-offset="154" max-vertical-offset="952" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/blocks/CarInputs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="361" selection-end="361" vertical-scroll-proportion="0.302589" vertical-offset="0" max-vertical-offset="618" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="605" column="0" selection-start="24861" selection-end="24861" vertical-scroll-proportion="0.0" vertical-offset="9370" max-vertical-offset="12631" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/internal/TestMethodWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="0" selection-start="3598" selection-end="3598" vertical-scroll-proportion="0.0" vertical-offset="1438" max-vertical-offset="4947" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="713" column="0" selection-start="28342" selection-end="28342" vertical-scroll-proportion="0.0" vertical-offset="11145" max-vertical-offset="32266" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="616" column="0" selection-start="22935" selection-end="22935" vertical-scroll-proportion="0.0" vertical-offset="9088" max-vertical-offset="25466" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/SuiteRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="347" column="0" selection-start="10591" selection-end="10591" vertical-scroll-proportion="0.0" vertical-offset="4974" max-vertical-offset="10421">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/TestNG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1056" column="0" selection-start="32873" selection-end="32873" vertical-scroll-proportion="0.0" vertical-offset="16221" max-vertical-offset="31977">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PdrzhAtests.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/Driver.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/DBSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="33" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1309">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/internal/ClassImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/internal/BaseClassFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/internal/TestNGClassFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/internal/annotations/JDK15TagFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/internal/collections/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/internal/annotations/JDK15AnnotationFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/internal/ClassHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8-sources.jar!/org/testng/internal/ObjectFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/RegisterCarPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/CarInfoProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="425">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="26" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="459">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="1598">
+          <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/RegisterCarPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/blocks/CarInputs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="28" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="3" selection-start="484" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/DBSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="8" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="408">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/EditPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="30" selection-start="3362" selection-end="3362" vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="1853">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1217" max-vertical-offset="1683">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/AddRoutePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1088">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/MyRoutesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="595">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="765">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="4879">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asd.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/ScrShotTaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="646">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/core/ExcelDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/FindRouteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/CarInfoProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/NewCarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.5904936" vertical-offset="102" max-vertical-offset="680">
+        <state vertical-scroll-proportion="0.0" vertical-offset="232" max-vertical-offset="765">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/NewRouteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/pdrzh/webdriver/tests/RouteInfoProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5798923" vertical-offset="0" max-vertical-offset="557">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>

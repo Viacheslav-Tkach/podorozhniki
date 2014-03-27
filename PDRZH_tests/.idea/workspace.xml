@@ -2,66 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c99b4a87-edca-4929-a637-ff6f24d773cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PdrzhAtests/.idea/libraries/Maven__postgresql_postgresql_9_1_901_jdbc4.xml" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_android_driver_2_39_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_iphone_driver_2_39_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\com\epam\pdrzh\webdriver\core\BaseTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\com\epam\pdrzh\webdriver\core\Driver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\com\epam\pdrzh\webdriver\tests\CarInfoProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\com\epam\pdrzh\webdriver\tests\NewCarTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\ui\EditPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\ui\LoginPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\ui\MainPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\ui\RegisterCarPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\ui\blocks\CarInputs.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\test\java\DBSelector.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\target\classes\DBSelector.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\target\classes\com\epam\pdrzh\webdriver\core\BaseTest.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\target\classes\com\epam\pdrzh\webdriver\core\Driver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\target\classes\com\epam\pdrzh\webdriver\tests\CarInfoProvider.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\target\classes\com\epam\pdrzh\webdriver\tests\NewCarTest.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\target\classes\ui\EditPage.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\target\classes\ui\LoginPage.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\target\classes\ui\MainPage.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\target\classes\ui\RegisterCarPage.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\target\test-classes\DBSelector.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\DBSelector.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\com\epam\pdrzh\webdriver\core\BaseTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\com\epam\pdrzh\webdriver\core\Driver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\com\epam\pdrzh\webdriver\tests\CarInfoProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\ui\EditPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\ui\LoginPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\ui\MainPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\ui\RegisterCarPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\ui\blocks\CarInputs.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_api_2_39_0.xml" afterPath="$PROJECT_DIR$/../PdrzhAtests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/../PdrzhAtests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/../PdrzhAtests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/../PdrzhAtests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_ie_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/../PdrzhAtests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_java_2_39_0.xml" afterPath="$PROJECT_DIR$/../PdrzhAtests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_remote_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/../PdrzhAtests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_safari_driver_2_39_0.xml" afterPath="$PROJECT_DIR$/../PdrzhAtests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_support_2_39_0.xml" afterPath="$PROJECT_DIR$/../PdrzhAtests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_40_0.xml" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\src\main\java\DBSelector.java" afterPath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/utils/DBSelector.java" />
-      <change type="MOVED" beforePath="C:\Users\Oleksandr_Rybkin@epam.com\Documents\AlexWork\PDRZH\PdrzhAtests\test\main\java\com\epam\pdrzh\webdriver\tests\NewCarTest.java" afterPath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/com/epam/pdrzh/webdriver/tests/NewCarTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/com/epam/pdrzh/webdriver/core/BaseTest.class" afterPath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/com/epam/pdrzh/webdriver/core/BaseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/com/epam/pdrzh/webdriver/tests/CarInfoProvider.class" afterPath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/com/epam/pdrzh/webdriver/tests/CarInfoProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/ui/blocks/CarInputs.class" afterPath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/ui/blocks/CarInputs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/ui/EditPage.class" afterPath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/ui/EditPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/ui/MainPage.class" afterPath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/ui/MainPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/com/epam/pdrzh/webdriver/tests/NewCarTest.class" afterPath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/com/epam/pdrzh/webdriver/tests/NewCarTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/ui/RegisterCarPage.class" afterPath="$PROJECT_DIR$/../PdrzhAtests/target/test-classes/ui/RegisterCarPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/com/epam/pdrzh/webdriver/core/BaseTest.java" afterPath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/com/epam/pdrzh/webdriver/core/BaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/com/epam/pdrzh/webdriver/tests/CarInfoProvider.java" afterPath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/com/epam/pdrzh/webdriver/tests/CarInfoProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/ui/blocks/CarInputs.java" afterPath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/ui/blocks/CarInputs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/ui/EditPage.java" afterPath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/ui/EditPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/ui/MainPage.java" afterPath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/ui/MainPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/PdrzhAtests.iml" afterPath="$PROJECT_DIR$/../PdrzhAtests/PdrzhAtests.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/ui/RegisterCarPage.java" afterPath="$PROJECT_DIR$/../PdrzhAtests/src/test/java/ui/RegisterCarPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/pom.xml" afterPath="$PROJECT_DIR$/../PdrzhAtests/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/test.properties" afterPath="$PROJECT_DIR$/../PdrzhAtests/test.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NewDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../NewDemo/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PdrzhAtests/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PdrzhAtests/.idea/workspace.xml" />
     </list>
     <ignored path="PDRZH_tests.iws" />
@@ -129,7 +71,7 @@
       <file leaf-file-name="PdrzhLogin.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PdrzhLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="46" selection-start="8048" selection-end="8087" vertical-scroll-proportion="2.7900677" vertical-offset="469" max-vertical-offset="8874">
+            <state line="29" column="55" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.027088037" vertical-offset="469" max-vertical-offset="8874">
               <folding />
             </state>
           </provider>
@@ -956,7 +898,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PdrzhLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="46" selection-start="8048" selection-end="8087" vertical-scroll-proportion="2.7900677" vertical-offset="469" max-vertical-offset="8874">
+        <state line="29" column="55" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.027088037" vertical-offset="469" max-vertical-offset="8874">
           <folding />
         </state>
       </provider>

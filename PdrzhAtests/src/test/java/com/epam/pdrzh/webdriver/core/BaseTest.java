@@ -11,8 +11,8 @@ public class BaseTest {
     @BeforeMethod
     public void init(){
         Driver.init();
-
     }
+
     @AfterMethod
     public void cleanup(){
         Driver.teardown();
